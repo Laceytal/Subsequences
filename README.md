@@ -5,7 +5,7 @@
 ### Запуск
 
 ```bash
-go run main.go <input_file>
+go run cmd/main.go <input_file>
 ```
 
 * `input_file` — текстовый файл, в первой строке которого указано число **n** (длина последовательности), далее через пробел или перевод строки — **n** целых чисел.
@@ -24,7 +24,7 @@ go run main.go <input_file>
 Запуск:
 
 ```bash
-go run main.go input.txt
+go run cmd/main.go input.txt
 ```
 
 Вывод:

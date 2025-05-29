@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-	"subsequences/internal"
+	"subsequences/internal/functions"
 )
 
 func main() {
@@ -48,7 +48,7 @@ func main() {
 		a[i] = x
 	}
 
-	result := internal.FindMinFullAlphabet(a)
+	result := functions.FindMinFullAlphabet(a)
 	if result == -1 {
 		fmt.Println("NONE")
 	} else {
